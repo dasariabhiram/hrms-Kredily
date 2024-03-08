@@ -38,7 +38,7 @@ const Login = () => {
               id="username"
               value={username}
               onChange={(e) => setUsername(e.target.value)}
-              className="w-full border rounded p-2 bg-gray-700"
+              className="w-full border rounded p-2 bg-gray-300"
             />
           </div>
           <div className="mb-4">
@@ -50,7 +50,7 @@ const Login = () => {
               id="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              className="w-full border rounded p-2 bg-gray-700"
+              className="w-full border rounded p-2 bg-gray-300"
             />
           </div>
           <button
