@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+# <div align="center">
+ 
+  <h1 align="center"> HRMS Application
+</h1>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## <a name="introduction">🤖 Introduction</a>
 
-## Available Scripts
+The HRMS (Human Resource Management System) application is a web-based platform that facilitates employee leave management, approval workflows, and provides insights for HR personnel.
 
-In the project directory, you can run:
+## <a name="livedemo">Live Demo</a>
 
-### `npm start`
+https://hrms-kredily.vercel.app/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## <a name="credintials">Credentials</a>
+ 
+#employee 
+<br>
+username : employee
+<br>
+password : password
+****
+#manager
+<br>
+username : manager
+<br>
+password : password
+****
+#hr
+<br>
+username : hr
+<br>
+password : password
+****
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## <a name="tech-stack">⚙️ Tech Stack
+</a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React for the frontend
+- React Router for navigation
+- Redux for state management
+- Tailwind CSS for styling
+- Local storage for data persistence (simulating a backend)
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Authentication and Authorization
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- User authentication (login and logout)
+- Role-based access control for Employee, Manager, and HR
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Employee Leave Requests
 
-### `npm run eject`
+- Employees can log in and submit leave requests.
+- Fields include leave type, start date, end date, and reason.
+- Employees can view the status of their leave requests.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Manager Dashboard
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Managers can see a list of leave requests.
+- Managers can approve or reject leave requests directly from the list.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### HR Dashboard
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- HR personnel can view a list of leave requests.
+- HR personnel can approve or reject leave requests directly from the list.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## <a name="quick-start">🤸 Quick Start</a>
 
-### Code Splitting
+Follow these steps to set up the project locally on your machine.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Prerequisites**
 
-### Analyzing the Bundle Size
+Make sure you have the following installed on your machine:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
 
-### Making a Progressive Web App
+**Cloning the Repository**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+https://github.com/dasariabhiram/hrms-Kredily.git
+cd hrms-app
+```
 
-### Advanced Configuration
+**Installation**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Install the project dependencies using npm:
 
-### Deployment
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+**Running the Project**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+npm run start
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+
+
+
